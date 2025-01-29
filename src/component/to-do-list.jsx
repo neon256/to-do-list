@@ -15,6 +15,7 @@ const ToDoList = () => {
         localStorage.setItem('todos', JSON.stringify(todos));
     }, [todos]);
     function save(e) {
+        if(value.trim() === 'Введите задание') return 
         e.preventDefault()
         setTodos([...todos, { name: value, completed: false }])
 
