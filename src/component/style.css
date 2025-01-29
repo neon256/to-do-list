@@ -1,0 +1,46 @@
+.title{
+    text-align: center;
+}
+
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid darkblue;
+}
+
+.form__container{
+    display: flex;
+    gap: 10px;
+}
+
+.form__container button{
+    color: #fff;
+    border-color: darkblue;
+    background-color: darkblue;
+}
+
+.to_do__container{
+    margin: 50px 0 0 0;
+}
+
+.card__container{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    border: 2px solid darkblue;
+    margin: 10px 0 0 0;
+}
+
+.card__button{
+    color: #fff;
+    border-color: darkblue;
+    background-color: darkblue;
+}
+.card__info{
+    display: flex;
+    margin: 20px 0 20px 10px;
+}
+.active{
+    background: #d3d3d3;
+    border-color: rgb(67, 67, 85);
+}
